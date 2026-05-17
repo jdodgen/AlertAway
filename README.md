@@ -1,53 +1,45 @@
-# [home-broker](linux/home-broker)
+# [AlertAway](linux/alertaway)
 A LAN server system desighed to run on low end Linux SBCs<br>
 It is best described as a System of Systems, gluing together other open source projects.    
-Now moved to: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-home/tree/main/linux/home-broker)   
+Code lives here: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-home/tree/main/linux/home-broker)   
 ### Features:
 - MQTT - A IBM designed messaging system for devices
-- WeMo - 
-- ZigBee Home Automation Devices
+- WeMo emulation- legacy
+- Phillips Hue emulation
+- ZigBee HA Home Automation Devices
 - IP/WiFi MQTT home automation devices
     
-### It uses these other open source projects:
+### It uses these and other open source projects:
 - [fauxmo](https://github.com/n8henrie/fauxmo)
 - [mqtt](https://github.com/eclipse/mosquitto)
 - [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt)
-- And of course lots of tools like python, sqlite
+- [DiyHue](https://diyhue.org/)
+- And of course lots of tools like python3, sqlite3
 
-### home-broker provides the following services: 
-- Collecting IP/ZigBee devices into a simplified interface
-- Lightweight HTTP serverer for:
-  - maintain/map fauxmo devices
-  - provides a link zigbee2mqtt to maintain zigbee devices
-  - allow manual entry of custom IP devices
-  - auto collects home-broker IP devices
-  - view consilodated devices and generated pub/sub topics/payloads
-  - it can be used to test devices turn on and off
-- Publish a simplified JSON file of all IP and Zigbee devices
-  - containing MQTT pup/sub and payload strings
-  - Available to feed other Home Automation systems
-- A local MQTT Broker
-- A WeMo to MQTT device mapping
+### AlertAway provides the following services: 
+- Collecting IP and ZigBee devices into a simplified interface
+- Lightweight HTTP servers for:
+  - maintain/map fauxmo/Hue  devices
+  - Uses zigbee2mqtt to maintain zigbee devices
+  - Allow automatic and manual entry of custom IP devices
+  - Map MQTT messages to emails with optional IP camera pictures
+  - Trigger devices from other devices
+- Uses a local or cloud MQTT Brokers
+- Written in Python3 with some SQL<br>
+- Designed to require NO user configuration after a SD image is built. 
 
-currently developed/tested on Raspbian Linux, should work on any linux/Unix<br>
-Written in Python3 with some SQL<br>
-Designed to require NO user configuration after a SD img is built. 
-### Summary:
-<pre>
-home-broker - a small dedicated mqtt, fauxmo and zigbee server
-it consolodates zigbee and Internet/WiFi devices in a sqlite database.
-It only collects and distributes configuration
-It serves device information via pub/sub to extract devices from database
-to be used by other automation systems.
-This data is simplfied and provides formatted data including the pub/sub strings
-</pre>
 ## Hardware requirements 
-SBC  pretty much anything that can run Linux<br>
-with RJ45 to connect to the home router, it is a server and not designed to be WiFi<br>
-and a USB port for the zigbee dongle
+small SBC, pretty much anything that can run Linux<br>
+A RJ45/Ethernet port to connect to the home router, it is a dedicated server and not designed to be using WiFi<br>
+Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbee2mqtt.io/guide/adapters/)
 ## Current development system:
 - Raspbian linux<br>
 - AML-S905X-CC (Le Potato) SBC (because RPI 3's were unavailble)
 - SONOFF Zigbee 3.0 USB Dongle (compatable and cheap)
-- Here are the working dongles
-  - [zigbee2mqtt](https://www.zigbee2mqtt.io/guide/adapters/)
+
+### History:
+<pre>
+The Project was started in 2011. Originaly written in Perl.
+At first it used Digi XBee's and later some ZigBee HA devices with custom Perl code.
+XBee's are all gone now. 
+</pre>
