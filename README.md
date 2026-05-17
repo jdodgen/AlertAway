@@ -1,11 +1,11 @@
 # [AlertAway](linux/alertaway)
-A lightweight home automation system designed to run on low end Linux Computers<br>
+A lightweight home automation system designed to run on low end Linux Computers
 It it uses MQTT and has timers, triggers, emailer, voice commands (Phillips Hue)
-It is Edge server system desighed to run on low end Linux SBCs<br>
-It is best described as a System of Systems, gluing together other open source projects.    
-Code lives here: [MQTT-home/linux/alertaway](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway) 
-It is currently a work in progress during converson from a older system.   
-It has a domain alertaway.com that is 15 years out of date. It was sort of our design ideas.  
+It is Edge server system desighed to run on low end Linux SBCs
+It is best described as a System of Systems, gluing together other open source projects 
+Code lives here: [MQTT-home/linux/alertaway](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway)
+It is currently a work in progress during converson from a older system.
+It has a domain alertaway.com that is 15 years out of date.
 
 ### Features:
 - MQTT - A IBM designed messaging system for devices
