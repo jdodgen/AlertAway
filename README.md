@@ -42,13 +42,7 @@ Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbe
 - AML-S905X-CC (Le Potato) SBC (because RPI 3's were unavailble)
 - SONOFF Zigbee 3.0 USB Dongle (compatable and cheap)
 
-### History:
-<pre>
-The Project was started in 2011. Originaly written in Perl. 
-I started it afte a friend has some damage from a water leak when they were away.
-At first it used Digi XBee's and later some ZigBee HA devices with custom Perl code.
-XBee's are all gone now. 
-</pre>) 
+
 It is best described as a System of Systems, gluing together other open source projects.    
 Code lives here: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-home/tree/main/linux/home-broker)   
 ### Features:
@@ -88,7 +82,8 @@ Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbe
 
 ### History:
 <pre>
-The Project was started in 2011. Originaly written in Perl.
+The Project was started in 2011. Originaly written in Perl. 
+I started it afte a friend has some damage from a water leak when they were away.
 At first it used Digi XBee's and later some ZigBee HA devices with custom Perl code.
 XBee's are all gone now.  
-</pre>
+</pre>) 
