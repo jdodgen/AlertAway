@@ -1,4 +1,4 @@
-# AlertAway
+# AlertAway   
 A lightweight home automation system designed to run on low end Linux Computers
 It it uses MQTT and has timers, triggers, emailer, voice commands (Phillips Hue)
 It is Edge server system desighed to run on low end Linux SBCs
@@ -44,7 +44,7 @@ Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbe
 
 
 It is best described as a System of Systems, gluing together other open source projects.    
-Code lives here: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-home/tree/main/linux/home-broker)   
+Code lives here: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway)   
 ### Features:
 - MQTT - A IBM designed messaging system for devices
 - WeMo emulation- legacy
