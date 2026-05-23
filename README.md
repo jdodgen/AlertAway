@@ -44,7 +44,7 @@ Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbe
 
 
 It is best described as a System of Systems, gluing together other open source projects.    
-Code lives here: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway)   
+Code lives here: [github](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway)   
 ### Features:
 - MQTT - A IBM designed messaging system for devices
 - WeMo emulation- legacy
