@@ -16,9 +16,9 @@ It has a domain alertaway.com that displays this content.
     
 ### It uses these and other open source projects:
 - [fauxmo](https://github.com/n8henrie/fauxmo)
-- [mqtt](https://github.com/eclipse/mosquitto)
 - [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt)
 - [DiyHue](https://diyhue.org/)
+- [Eclipse Mosquitto](https://mosquitto.org/)
 - And of course lots of tools like python3, sqlite3
 
 ### AlertAway provides the following services: 
