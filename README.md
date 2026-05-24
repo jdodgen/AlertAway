@@ -1,11 +1,11 @@
-# [AlertAway](linux/alertaway)
+# AlertAway   
 A lightweight home automation system designed to run on low end Linux Computers
 It it uses MQTT and has timers, triggers, emailer, voice commands (Phillips Hue)
 It is Edge server system desighed to run on low end Linux SBCs
 It is best described as a System of Systems, gluing together other open source projects 
 Code lives here: [MQTT-home/linux/alertaway](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway)
 It is currently a work in progress during converson from a older system.
-It has a domain alertaway.com that is 15 years out of date.
+It has a domain alertaway.com that displays this content.
 
 ### Features:
 - MQTT - A IBM designed messaging system for devices
@@ -16,9 +16,9 @@ It has a domain alertaway.com that is 15 years out of date.
     
 ### It uses these and other open source projects:
 - [fauxmo](https://github.com/n8henrie/fauxmo)
-- [mqtt](https://github.com/eclipse/mosquitto)
 - [zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt)
 - [DiyHue](https://diyhue.org/)
+- [Eclipse Mosquitto](https://mosquitto.org/)
 - And of course lots of tools like python3, sqlite3
 
 ### AlertAway provides the following services: 
@@ -44,7 +44,7 @@ Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbe
 
 
 It is best described as a System of Systems, gluing together other open source projects.    
-Code lives here: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-home/tree/main/linux/home-broker)   
+Code lives here: [github](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway)   
 ### Features:
 - MQTT - A IBM designed messaging system for devices
 - WeMo emulation- legacy
@@ -75,6 +75,7 @@ Code lives here: [MQTT-home/linux/home-broker](https://github.com/jdodgen/MQTT-h
 small SBC, pretty much anything that can run Linux<br>
 A RJ45/Ethernet port to connect to the home router, it is a dedicated server and not designed to be using WiFi<br>
 Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbee2mqtt.io/guide/adapters/)
+
 ## Current development system:
 - Raspbian linux<br>
 - AML-S905X-CC (Le Potato) SBC (because RPI 3's were unavailble)
@@ -83,7 +84,7 @@ Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbe
 ### History:
 <pre>
 The Project was started in 2011. Originaly written in Perl. 
-I started it afte a friend has some damage from a water leak when they were away.
-At first it used Digi XBee's and later some ZigBee HA devices with custom Perl code.
+I started it after a friend had some damage from a water leak when they were away.
+At first it used Digi XBee's and later some ZigBee HA devices.
 XBee's are all gone now.  
 </pre>) 
