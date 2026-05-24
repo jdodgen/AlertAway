@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlertAway</title>
+    
+    <!-- Official GitHub markdown stylesheet matching native repository aesthetics -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    
+    <style>
+        /* Centers content on the screen and mimics official GitHub document bounds */
+        body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            body {
+                padding: 15px;
+            }
+        }
+        
+        /* Auto-adapts text and background colors to light or dark system settings */
+        @media (prefers-color-scheme: dark) {
+            body { background-color: #0d1117; }
+        }
+        @media (prefers-color-scheme: light) {
+            body { background-color: #ffffff; }
+        }
+    </style>
+</head>
+<body class="markdown-body">
+
+    <!-- Container where the markdown elements populate -->
+    <div id="content">Loading content directly from GitHub...</div>
+
+    <!-- Loads the markdown-to-HTML compilation engine -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+    <script>
+        // Directly maps to your public repository branch
+        const targetUrl = 'https://raw.githubusercontent.com/jdodgen/AlertAway/refs/heads/main/README.md';
+
+        fetch(targetUrl)
+            .then(response => {
+                if (!response.ok) throw new Error('Network file fetch failed');
+                return response.text();
+            })
+            .then(markdownText => {
+                // Compiles raw text into HTML layouts inside your container
+                document.getElementById('content').innerHTML = marked.parse(markdownText);
+            })
+            .catch(err => {
+                document.getElementById('content').innerHTML = `
+                    <h2>Unable to load website content</h2>
+                    <p>Please review your repository settings or try again later.</p>
+                `;
+                console.error('Fetch Error:', err);
+            });
+    </script>
+</body>
+</html>
