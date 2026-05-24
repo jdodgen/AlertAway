@@ -75,6 +75,7 @@ Code lives here: [github](https://github.com/jdodgen/MQTT-home/tree/main/linux/a
 small SBC, pretty much anything that can run Linux<br>
 A RJ45/Ethernet port to connect to the home router, it is a dedicated server and not designed to be using WiFi<br>
 Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbee2mqtt.io/guide/adapters/)
+
 ## Current development system:
 - Raspbian linux<br>
 - AML-S905X-CC (Le Potato) SBC (because RPI 3's were unavailble)
@@ -83,7 +84,7 @@ Also a USB port for the zigbee2mqtt compatable [zigbee dongle](https://www.zigbe
 ### History:
 <pre>
 The Project was started in 2011. Originaly written in Perl. 
-I started it afte a friend has some damage from a water leak when they were away.
-At first it used Digi XBee's and later some ZigBee HA devices with custom Perl code.
+I started it after a friend had some damage from a water leak when they were away.
+At first it used Digi XBee's and later some ZigBee HA devices.
 XBee's are all gone now.  
 </pre>) 
