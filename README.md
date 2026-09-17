@@ -72,8 +72,8 @@ In its earliest iterations, the system relied heavily on Digi XBee radios. Over 
 
 ---
 
-## 📄 License & Copyright
+## 📄 Licence & Copyright
 
 Copyright (c) 2011-2026 jdodgen.
 
-This project is open-source software licensed under the terms of the **MIT License**. See the repository's [License: MIT](https://github.com/jdodgen/AlertAway/blob/main/LICENCE) file for full details.
+This project is open-source software licensed under the terms of the **MIT License**. See the repository's [MIT](https://github.com/jdodgen/AlertAway/blob/main/LICENCE) file for full details.
