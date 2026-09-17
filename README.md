@@ -2,10 +2,10 @@
 ### A lightweight edge-server home automation system designed to run on low-end Linux computers.
 
 <p align="center">
-  <img src="./logo.png" alt="AlertAway Logo" width="300" height="300">
+  <img src="https://github.com/jdodgen/AlertAway/blob/main/aa_logo.jpg?raw=true" alt="AlertAway Logo" width="300" height="300">
 </p>
 
-[![License: MIT](https://shields.io)](./LICENCE)
+[License: MIT](https://github.com/jdodgen/AlertAway/blob/main/LICENCE)
 
 **AlertAway** is best described as a *System of Systems*, gluing together existing open-source projects into a simplified interface. It functions as an edge-server designed to deploy efficiently on low-end Linux single-board computers (SBCs). 
 
