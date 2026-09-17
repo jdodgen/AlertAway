@@ -10,7 +10,9 @@
 Originally written in Perl, AlertAway is currently a work in progress as it undergoes a complete architectural redesign and conversion to **Python 3**.
 
 * **Project Homepage:** [alertaway.com](http://alertaway.com)
-* **Source Code:** [MQTT-home/linux/alertaway](https://github.com)
+* **Source Code:** [https://github.com/jdodgen/MQTT-home/linux/alertaway](https://github.com/jdodgen/MQTT-home/tree/main/linux/alertaway)
+
+linux/alertaway
 
 ---
 
