@@ -68,9 +68,12 @@ AlertAway is highly optimized to run on virtually any small single-board compute
 
 ## 🕰️ Project History
 
-The project was originally started in **2011** and written entirely in **Perl**. The inspiration came after a friend suffered severe property damage from an undetected water leak while they were away from home. 
+The project was originally started in **2011** and written entirely in **Perl**. The inspiration came after a friend suffered severe property damage from an undetected water leak while they were away from home.
 
-In its earliest iterations, the system relied heavily on Digi XBee radios. Over time, the architecture shifted toward standardized ZigBee HA hardware, and the legacy XBee radios have since been completely phased out.
+In its earliest iterations, the system relied heavily on Digi XBee radios. Over time, the architecture shifted toward standardized ZigBee HA hardware, and the legacy XBee radios have since been completely phased out.    
+
+Now written in Python and using ZigBee HA as well as custom MQTT devices. 
+    
 
 ---
 
