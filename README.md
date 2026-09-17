@@ -5,8 +5,6 @@
   <img src="https://github.com/jdodgen/AlertAway/blob/main/aa_logo.jpg?raw=true" alt="AlertAway Logo" width="300" height="300">
 </p>
 
-[License: MIT](https://github.com/jdodgen/AlertAway/blob/main/LICENCE)
-
 **AlertAway** is best described as a *System of Systems*, gluing together existing open-source projects into a simplified interface. It functions as an edge-server designed to deploy efficiently on low-end Linux single-board computers (SBCs). 
 
 Originally written in Perl, AlertAway is currently a work in progress as it undergoes a complete architectural redesign and conversion to **Python 3**.
@@ -78,4 +76,4 @@ In its earliest iterations, the system relied heavily on Digi XBee radios. Over 
 
 Copyright (c) 2011-2026 jdodgen.
 
-This project is open-source software licensed under the terms of the **MIT License**. See the repository's [LICENCE](./LICENCE) file for full details.
+This project is open-source software licensed under the terms of the **MIT License**. See the repository's [License: MIT](https://github.com/jdodgen/AlertAway/blob/main/LICENCE) file for full details.
