@@ -60,6 +60,7 @@ AlertAway is highly optimized to run on virtually any small single-board compute
 * **USB:** At least one available USB port to host a [compatible ZigBee adapter/dongle](https://zigbee2mqtt.io).
 
 ### Current Development Reference Stack [1]
+Test environment is a Ubuntu desktop with a cheap generic ZigBee dongle. Target is below:
 * **OS:** Raspbian Linux
 * **SBC:** AML-S905X-CC (Le Potato) — *chosen for its excellent availability over the Raspberry Pi 3*
 * **Hardware Bridge:** SONOFF Zigbee 3.0 USB Dongle Plus — *highly reliable and budget-friendly*
@@ -70,9 +71,14 @@ AlertAway is highly optimized to run on virtually any small single-board compute
 
 The project was originally started in **2011** and written entirely in **Perl**. The inspiration came after a friend suffered severe property damage from an undetected water leak while they were away from home.
 
-In its earliest iterations, the system relied heavily on Digi XBee radios. Over time, the architecture shifted toward standardized ZigBee HA hardware, and the legacy XBee radios have since been completely phased out.    
+In its earliest iterations, the system relied heavily on Digi XBee radios. Over time, 
+the architecture shifted toward standardized ZigBee HA hardware, and the legacy XBee radios have since been completely phased out.
 
-Now written in Python and using ZigBee HA as well as custom MQTT devices. 
+
+Now written in Python and using ZigBee HA (ZigBee2MQTT) as well as supporting custom IP devices. The all communicate through MQTT.   
+
+The old Perl version is now fully decommissioned after running rock solid for 15 years. 
+The new re-write is cleaner, simpler and eliminates some of the "brain fart" features the Perl version had acquired over time.
     
 
 ---
